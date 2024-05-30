@@ -1,0 +1,79 @@
+body,button,input{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorPa{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+
+.tituloCrud{
+    text-align: center;
+    color: black
+}
+
+.formulario_crud{
+    display: flex;
+    margin: 10px 0;
+}
+
+.form_input{
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button--primary{
+    background-color:rgb(255, 198, 198);
+    color: black ;
+}
+.button--secondary{
+    background-color:rgb(29, 214, 54);
+    color: black ;
+}
+.button--tertiary{
+    background-color:rgb(238, 22, 22);
+    color: black ;
+}
+
+.tabla_crud{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla_header, .tabla_body td{
+    border: 1px solid orange;
+    padding: 8px;
+}
+
+.tabla_header{
+    background-color: rgb(226, 104, 104)
+}
+
+.tabla_body td:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO INGRESO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+<body>
+    <main class="contenedorPa">
+        <section class="crud">
+            <h1 class="tituloCrud">CRUD DE USUARIO</h1>
+            <form id="registroFormulario" class="formulario_crud">
+                <input type="text" placeholder="Nombre" id="nombre" class="form_input">
+                <input type="text" placeholder="Email" id="email" class="form_input">
+                <button type="submit" id="btnEnvio" class="button button--primary">AGREGAR</button>
+            </form>
+            <table class="tabla_crud">
+                <thead>
+                    <tr>
+                        <th class="tabla_header">Nombre</th>
+                        <th class="tabla_header">Email</th>
+                        <th class="tabla_header">Accion</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody" class="tabla_body">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
